@@ -23,14 +23,15 @@ html{
     width: auto;
     padding: 10px;
     font-family: 'Kanit', sans-serif;
-    background: linear-gradient(to right,rgb(60, 164, 255),rgb(255, 86, 112));
+    background: linear-gradient(to right,#13547a,#80d0c7);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
 body{
     height: inherit;
-    background-image: url(../img/hue.jpg);
+   
+    background: linear-gradient(to top,#13547a,#80d0c7);
     background-repeat: no-repeat;
     background-size: cover;
 }
