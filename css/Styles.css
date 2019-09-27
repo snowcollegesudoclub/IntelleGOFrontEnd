@@ -1,0 +1,67 @@
+@keyframes fadein {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+html{
+    height: 100%;
+    animation: fadein 2s;
+}
+
+#Title{
+    background-color:white;
+    box-shadow: 5px 2px 5px 2px #b6b5b5
+}
+#Title h3{
+    /* color: rgb(111, 62, 247); */
+    text-align: center;
+    width: auto;
+    padding: 10px;
+    font-family: 'Kanit', sans-serif;
+    background: linear-gradient(to right,rgb(60, 164, 255),rgb(255, 86, 112));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+body{
+    height: inherit;
+    background-image: url(../img/hue.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.form-control-lg{
+    border-radius: 28px !important;
+}
+
+.myform{
+    padding: 20px;
+}
+
+#formSection{
+    display: block;
+    margin: auto;
+    width: 50%;
+    margin-top: 5%;
+}
+#formSection label{
+    color: white;
+    font-family: 'Kanit', sans-serif;
+}
+
+.btn{
+    display: block !important;
+    margin: auto;
+    background: white !important;
+    border-style: none !important;
+    border-radius: 20px !important;
+    padding: 5px 20px 5px 20px !important;
+    font-size: 10px !important;
+    box-shadow: 1px 2px 1px 1px #979797;
+    color: black !important;
+}
+
