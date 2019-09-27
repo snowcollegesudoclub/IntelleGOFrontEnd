@@ -11,6 +11,7 @@
 html{
     height: 100%;
     animation: fadein 2s;
+    font-family: 'Kanit', sans-serif;
 }
 
 #Title{
@@ -22,7 +23,6 @@ html{
     text-align: center;
     width: auto;
     padding: 10px;
-    font-family: 'Kanit', sans-serif;
     background: linear-gradient(to right,#13547a,#80d0c7);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -51,7 +51,7 @@ body{
 }
 #formSection label{
     color: white;
-    font-family: 'Kanit', sans-serif;
+    
 }
 
 .btn{
@@ -61,8 +61,16 @@ body{
     border-style: none !important;
     border-radius: 20px !important;
     padding: 5px 20px 5px 20px !important;
-    font-size: 10px !important;
+    font-size: 20px !important;
     box-shadow: 1px 2px 1px 1px #979797;
-    color: black !important;
+    
+    font-family: 'Kanit', sans-serif;
+}
+
+.btn h6{
+    background:#13547a;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding-top: 10px;
 }
 
