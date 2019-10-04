@@ -14,44 +14,11 @@ html{
     font-family: 'Kanit', sans-serif;
 }
 
-#Title{
-    background-color:white;
-    box-shadow: 5px 2px 5px 2px #b6b5b5
-}
-#Title h3{
-    /* color: rgb(111, 62, 247); */
-    text-align: center;
-    width: auto;
-    padding: 10px;
-    background: linear-gradient(to right,#13547a,#80d0c7);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
-
 body{
     height: inherit;
-   
-    background: linear-gradient(to top,#13547a,#80d0c7);
+    
     background-repeat: no-repeat;
     background-size: cover;
-}
-.form-control-lg{
-    border-radius: 28px !important;
-}
-
-.myform{
-    padding: 20px;
-}
-
-#formSection{
-    display: block;
-    margin: auto;
-    width: 50%;
-    margin-top: 5%;
-}
-#formSection label{
-    color: white;
-    
 }
 
 .btn{
@@ -72,5 +39,40 @@ body{
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     padding-top: 10px;
+}
+
+.form-control-lg{
+    background: linear-gradient(to top,#13547a,#80d0c7);
+    border-radius: 28px !important;
+}    
+
+#formSection{
+    display: block;
+    margin: auto;
+    width: 50%;
+    margin-top: 5%;
+}    
+#formSection label{
+    color: white;
+    
+}    
+
+.myform{
+    padding: 20px;
+}    
+
+#Title{
+    background-color:white;
+    box-shadow: 5px 2px 5px 2px #b6b5b5
+}
+
+#Title h3{
+    /* color: rgb(111, 62, 247); */
+    text-align: center;
+    width: auto;
+    padding: 10px;
+    background: linear-gradient(to right,#13547a,#80d0c7);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
