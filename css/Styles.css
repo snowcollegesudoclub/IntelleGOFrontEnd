@@ -14,11 +14,44 @@ html{
     font-family: 'Kanit', sans-serif;
 }
 
+#Title{
+    background-color:white;
+    box-shadow: 5px 2px 5px 2px #b6b5b5
+}
+#Title h3{
+    /* color: rgb(111, 62, 247); */
+    text-align: center;
+    width: auto;
+    padding: 10px;
+    background: linear-gradient(to right,#13547a,#80d0c7);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
 body{
     height: inherit;
-    
+    /* background-color:white !important;  */
+    background: linear-gradient(to bottom,#B6C2D9,#13134c);
     background-repeat: no-repeat;
     background-size: cover;
+}
+.form-control-lg{
+    border-radius: 28px !important;
+}
+
+.myform{
+    padding: 20px;
+}
+
+#formSection{
+    display: block;
+    margin: auto;
+    width: 50%;
+    margin-top: 5%;
+}
+#formSection label{
+    color: white;
+    
 }
 
 .btn{
@@ -40,39 +73,46 @@ body{
     -webkit-text-fill-color: transparent;
     padding-top: 10px;
 }
-
-.form-control-lg{
-    background: linear-gradient(to top,#13547a,#80d0c7);
-    border-radius: 28px !important;
-}    
-
-#formSection{
-    display: block;
-    margin: auto;
-    width: 50%;
-    margin-top: 5%;
-}    
-#formSection label{
+.answer-box{
+    display: block !important;
+    margin: 15px 0px 0px 0px;
     color: white;
+    border-style: none !important;
+    border-radius: 20px !important;
+    padding: 5px 20px 5px 20px !important;
+    font-size: 20px !important;
     
-}    
-
-.myform{
-    padding: 20px;
-}    
-
-#Title{
-    background-color:white;
-    box-shadow: 5px 2px 5px 2px #b6b5b5
+    font-family: 'Kanit', sans-serif;
 }
-
-#Title h3{
-    /* color: rgb(111, 62, 247); */
+figure {
     text-align: center;
-    width: auto;
-    padding: 10px;
-    background: linear-gradient(to right,#13547a,#80d0c7);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    height: 40vh;
+    width: 100%;
 }
-
+img {
+    width: 100%;
+    height: 100%
+}
+.answerbox1 .answer-box{
+    background-color: blue  !important;
+    box-shadow: 1px 2px 1px 1px #0000ba;
+}
+.answerbox2 .answer-box{
+    background-color: red  !important;
+    box-shadow: 1px 2px 1px 1px #ba0000;
+}
+.answerbox3 .answer-box{
+    background-color: yellow  !important;
+    color: black !important;
+    box-shadow: 1px 2px 1px 1px #baba00;
+}
+.answerbox4 .answer-box{
+    background-color: green  !important;
+    box-shadow: 1px 2px 1px 1px #005200;
+}
+.question {
+    background-color: white!important;
+    padding: 50px;
+    border-radius: 25px;
+    box-shadow: 0px 2px 5px 2px #b6b5b5
+}
